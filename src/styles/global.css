@@ -1,5 +1,24 @@
+/* Self-hosted IBM Plex Mono — only the weights this site actually uses.
+   Replaces a render-blocking Google Fonts request that declared 14 faces. */
+@import "@fontsource/ibm-plex-mono/latin-400.css";
+@import "@fontsource/ibm-plex-mono/latin-500.css";
+@import "@fontsource/ibm-plex-mono/latin-600.css";
+@import "@fontsource/ibm-plex-mono/latin-700.css";
+
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+  /* Clears the fixed header so anchor targets aren't hidden beneath it. */
+  scroll-padding-top: 5rem;
+}
+
 body {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
