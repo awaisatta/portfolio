@@ -20,10 +20,10 @@ export const siteConfig = {
       link: "https://theexpressvapes.com",
       skills: ["Laravel", "PHP", "MySQL", "JavaScript", "AJAX"],
     }
-    
+
   ],
   experience: [
-   {
+    {
       company: "Stadsmissionen Second Hand",
       title: "Warehouse Assistant",
       dateRange: "Jul 2023 - Aug 2023",
@@ -40,10 +40,10 @@ export const siteConfig = {
       degree: "Master of Science in Computer Science",
       dateRange: "2025 - Present",
       achievements: [
-      "Currently pursuing a Bachelor's degree in Computer Science",
-      "Developing strong foundations in programming, algorithms, and system design",
-      "Building real-world projects in full-stack development",
-    ],
+        "Currently pursuing a Master's degree in Computer Science",
+        "Developing strong foundations in programming, algorithms, and system design",
+        "Building real-world projects in full-stack development",
+      ],
     },
     {
       school: "Polhemsgymnasiet",
