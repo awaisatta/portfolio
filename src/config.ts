@@ -37,7 +37,7 @@ export const siteConfig = {
   education: [
     {
       school: "Chalmers University of Technology",
-      degree: "Bachelor of Science in Computer Science",
+      degree: "Master of Science in Computer Science",
       dateRange: "2025 - Present",
       achievements: [
       "Currently pursuing a Bachelor's degree in Computer Science",
