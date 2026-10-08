@@ -11,14 +11,20 @@ export const siteConfig = {
   },
   aboutMe:
     "Engaged and responsible student with experience in warehouse and administrative work. Strong interest in leadership, with a focus on organization, attention to detail, and problem-solving. Currently pursuing a degree in Computer Science, with a passion for software development and technology. Eager to apply my skills and knowledge in real-world projects and contribute to innovative solutions.",
-  skills: ["Prompt Engineering", "Python", "Docker"],
+  skills: ["Embedded Programming with C", "Python", "Docker"],
   projects: [
     {
       name: "Express Vapes Ecommerce",
       description:
-        "Custom-built ecommerce platform with advanced product filtering, AJAX-driven cart system, optimized checkout flow, and performance-focused frontend architecture.",
-      link: "https://theexpressvapes.com",
-      skills: ["Laravel", "PHP", "MySQL", "JavaScript", "AJAX"],
+        "Developed an ecommerce website with AI assistance, using iterative prompting and problem solving to implement product filtering, a shopping cart, and checkout functionality. Currently offline.",
+      link: "",
+      skills: [
+        "AI-Assisted Development",
+        "Prompt Engineering",
+        "Requirements Analysis",
+        "Problem Solving",
+        "Ecommerce Development",
+      ],
     }
 
   ],
