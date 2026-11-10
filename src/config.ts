@@ -12,22 +12,40 @@ export const siteConfig = {
   aboutMe:
     "Engaged and responsible student with experience in warehouse and administrative work. Strong interest in leadership, with a focus on organization, attention to detail, and problem-solving. Currently pursuing a degree in Computer Science, with a passion for software development and technology. Eager to apply my skills and knowledge in real-world projects and contribute to innovative solutions.",
   skills: ["Embedded Programming with C", "Python", "Docker"],
+  
   projects: [
     {
-      name: "Express Vapes Ecommerce",
-      description:
-        "Developed an ecommerce website with AI assistance, using iterative prompting and problem solving to implement product filtering, a shopping cart, and checkout functionality. Currently offline.",
-      link: "",
-      skills: [
-        "AI-Assisted Development",
-        "Prompt Engineering",
-        "Requirements Analysis",
-        "Problem Solving",
-        "Ecommerce Development",
-      ],
-    }
-
+        name: "Embedded Software Development | Chalmers",
+        description:
+          "Collaborated in a six-person engineering team on an embedded systems project at Chalmers University of Technology. Gained hands-on experience in embedded C programming, microcontroller development, hardware-software integration, debugging, and software testing. Contributed to development, hardware setup, troubleshooting, and system integration.",
+        link: "",
+        skills: [
+          "Embedded C",
+          "Microcontrollers",
+          "Embedded Systems",
+          "Hardware-Software Integration",
+          "Debugging",
+          "Software Testing",
+          "Git",
+          "Team Collaboration",
+        ],
+      },
+      {
+        name: "Express Vapes Ecommerce",
+        description:
+          "Directed the development of a full-stack ecommerce website using AI coding tools. Defined requirements, refined functionality through iterative prompting, and tested product filtering, shopping cart, checkout, and order processing workflows. Currently offline.",
+        link: "",
+        skills: [
+          "AI-Assisted Development",
+          "Prompt Engineering",
+          "Requirements Analysis",
+          "Functional Testing",
+          "Problem Solving",
+          "Iterative Development",
+        ],
+      },
   ],
+
   experience: [
     {
       company: "Stadsmissionen Second Hand",
